@@ -11,6 +11,6 @@ BUILD_ENV_DEPS="${BUILD_ENV_DEPS} uuid-dev libicu-dev texinfo"
 JANSSON_DEPS="zlib1g zlib1g-dev libglib2.0-dev"
 
 # Xapian dependencies
-XAPIAN_DEPS="graphviz doxygen python-docutils help2man libmagic-dev"
+XAPIAN_DEPS="graphviz doxygen python3-docutils help2man libmagic-dev"
 
 apt-get install -y ${BUILD_ENV_DEPS} ${JANSSON_DEPS} ${XAPIAN_DEPS}
